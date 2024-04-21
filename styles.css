@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.user {
+    width: 500px;
+    background-color:  white(20, 226, 216);
+
+    border-radius: 1px;
+    padding: 0px;
+    border: 2px solid rgb(20, 226, 216); 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 2px 4px 8px rgb(20, 226, 216);
+
+}
+
+.user-header {
+    height: 50px;
+    background-color: rgb(20, 226, 216); /* Verde azulado */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.user-profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: -30px;
+    left: 7%;
+    transform: translateX(-50%);
+    
+}
+
+.user-info {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.user-name {
+    margin-bottom: 0px;
+}
+
+
+.user-role {
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.user-description {
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+
+
+.action-icon {
+    width: 15px;
+    height: 20px;
+    margin: 0 10px;
+    
+}
+.linea {
+    display: flex;
+    align-items: center;
+}
+.edit {
+    text-decoration: underline; 
+    color: rgb(110, 110, 255); 
+}
